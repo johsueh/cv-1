@@ -44,7 +44,19 @@ let string = `/*大家好
     border-radius: 50%;
     background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 25%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 100%, rgba(0,0,0,1) 100%);
     }
-/* 
+/* 接着让太极转动起来吧
+*/
+@keyframes spin {
+    0% {   
+        transform:  rotate(0deg);
+    }
+    100% {      
+        transform: rotate(360deg);
+    }
+}
+#div1 {
+    animation: spin 6s linear infinite;
+}
    
 
 `;
