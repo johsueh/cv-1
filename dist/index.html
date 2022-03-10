@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>太极八卦图</title>
+</head>
+<body>
+<style id="style"></style>
+<div id="div1"></div>
+<div id="html"></div>
+
+<style>* {
+        margin: 0;
+        padding: 0;
+        border-sizing: border-box;
+    }
+    #html{
+        overflow-x:auto;
+        /*margin-top: 20px;*/
+        max-height:calc(100vh - 40vw);
+        word-break: break-all;
+
+    }
+    /*#html{*/
+    /*    position: fixed;*/
+    /*    word-break: break-all;*/
+    /*    top: 233px;*/
+    /*}*/
+
+    #div1 {
+        position: relative;
+        margin: 10px auto;
+
+    }
+    #div1::before{
+        content: '';
+        display: block;
+        position: absolute;
+    }
+    #div1::after{
+        content: '';
+        display: block;
+        position: absolute;
+    }</style>
+<script src="/main.1f19ae8e.js"></script>
+</body>
+</html>
